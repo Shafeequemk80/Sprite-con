@@ -274,7 +274,13 @@ transition: .5s;}
 padding-bottom: 20px;
 }h3.texts{
     margin-top: -5px;
-}.footer{
+}.h3-texts:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.footer{
  background-color: #009b4e;
  height: auto;
  margin: 0px;color: #fff;
@@ -285,6 +291,7 @@ padding-bottom: 20px;
     margin: 0;
     text-align: center;
   }
+
   .footel-ul
 { font-family: srite;
     display: flex;
@@ -295,5 +302,12 @@ padding-bottom: 20px;
 {
     display:flex;
     justify-content: center;
+   
   
+}.footer-ui p{
+    border-right: 1px solid white;
+    margin-right: 5px;
+    padding-right: 5px;
+}ull{
+    border-right: none;
 }
